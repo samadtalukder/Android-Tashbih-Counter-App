@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tasbih_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tasbihText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="তসবিহ পড়ুন" />
+        <TextView
+            android:textSize="100sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tasbihcount"
+            android:background="@drawable/tashbih_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:text="00" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tasbih_counter">
+        <Button
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:id="@+id/minus_button"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="কমান"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:id="@+id/plus_button"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="বাড়ান"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
+
+

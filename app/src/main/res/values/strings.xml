@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Tasbih App</string>
+    <string name="title">তসবিহ পড়ুন</string>
+    <string name="plusBtn">বাড়ান (+)</string>
+    <string name="minusBtn">কমান (-)</string>
+    <string name="resetBtn">রিসেট করুন</string>
+    <string name="saveBtn">সেভ করুন</string>
+</resources>
